@@ -1,0 +1,6 @@
+python-telegram-bot
+youtube-dl
+python-vlc
+requests
+pafy
+bs4

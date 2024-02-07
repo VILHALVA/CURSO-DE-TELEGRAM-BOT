@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+node_modules
+.idea/
+storage/
+log/
+pid/
+config.json
+node-ytSub
+/backup
+/liveTime.json
+old/
+dist/

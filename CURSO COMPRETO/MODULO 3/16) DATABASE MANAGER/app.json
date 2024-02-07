@@ -1,0 +1,30 @@
+{
+    "name": "Redis Bot",
+    "description": "A Telegram Bot to manage Redis database.",
+    "logo": "https://telegra.ph/file/e2f667a881d5190ca009c.jpg",
+    "keywords": [
+        "Telegram",
+        "python",
+        "redis",
+        "database",
+        "bot"
+    ],
+    "repository": "https://github.com/buddhhu/Redis-Database-Manager",
+    "success_url": "https://t.me/TheUltroid",
+    "env": {
+        "APP_ID": {
+            "description": "Your api id, from my.telegram.org",
+            "value": "6",
+            "required": false
+        },
+        "API_HASH": {
+            "description": "Your api hash, from my.telegram.org",
+            "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e",
+            "required": false
+        },
+        "BOT_TOKEN": {
+            "description": "Make a bot from @BotFather, and enter it's api token here.",
+            "value": ""
+        }
+    }
+}

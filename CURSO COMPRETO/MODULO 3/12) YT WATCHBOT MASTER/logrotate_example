@@ -1,0 +1,8 @@
+/home/user/ytWatchBot/log/*.log {
+        rotate 64
+        daily
+        copytruncate
+        compress
+        missingok
+        notifempty
+}

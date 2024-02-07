@@ -1,0 +1,8 @@
+# backups de texto
+*~
+*.swp
+
+# coisas do pytho
+*.pyc
+*.pyo
+__pycache__/

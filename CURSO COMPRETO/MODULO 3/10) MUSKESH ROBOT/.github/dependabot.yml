@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+    timezone: "Asia/Kolkata"
+  labels:
+    - "dependencies"
+  open-pull-requests-limit: 50
+  ignore:
+    - dependency-name: "python-telegram-bot"
+    
