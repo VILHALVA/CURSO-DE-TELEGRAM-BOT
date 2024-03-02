@@ -1,0 +1,17 @@
+[
+    {
+        "_id": {"$oid": "61f22d53c51f4a0d5be72c23"},
+        "nome": "Usuário 1",
+        "idade": 30
+    },
+    {
+        "_id": {"$oid": "61f22d53c51f4a0d5be72c24"},
+        "nome": "Usuário 2",
+        "idade": 25
+    },
+    {
+        "_id": {"$oid": "61f22d53c51f4a0d5be72c25"},
+        "nome": "Usuário 3",
+        "idade": 35
+    }
+]

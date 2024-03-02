@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "65e37cdf4bced431280a3cb7"
+  },
+  "id": 5,
+  "filename": "TELEGRAM",
+  "directory": "./MIDIAS",
+  "file_ext": "jpg"
+},
+{
+  "_id": {
+    "$oid": "65e37cdf4bced431280a3cb8"
+  },
+  "id": 6,
+  "filename": "ROBOT",
+  "directory": "./MIDIAS",
+  "file_ext": "jpg"
+},
+{
+  "_id": {
+    "$oid": "65e37cdf4bced431280a3cb9"
+  },
+  "id": 7,
+  "filename": "ROBOT2",
+  "directory": "./MIDIAS",
+  "file_ext": "jpg"
+}]
