@@ -1,6 +1,0 @@
-django
-gunicorn
-django-heroku
-aiogram
-python-telegram-bot
-psycopg2-binary
