@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJANGO</title>
+</head>
+<body>
+    <h1>DJANGO</h1>
+    <form action="{% url 'save_settings' %}" method="post">
+        {% csrf_token %}
+        <label for="token">Token do Bot:</label><br>
+        <input type="text" id="token" name="token" value="{{ settings.token }}"><br><br>
+
+        <label for="chat_id">ID do Grupo/Canal:</label><br>
+        <input type="text" id="chat_id" name="chat_id" value="{{ settings.chat_id }}"><br><br>
+
+        <input type="submit" value="SALVAR">
+    </form>
+</body>
+</html>
