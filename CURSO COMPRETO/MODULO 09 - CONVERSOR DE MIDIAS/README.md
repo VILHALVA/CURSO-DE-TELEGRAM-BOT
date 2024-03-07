@@ -6,7 +6,7 @@
 No `Módulo 09`, daremos um upgrade no que aprendemos no `Módulo 03 - Multimídias`, expandindo nosso conhecimento sobre:
 
 - **Tipos de Mídias:**
-  - Aprenderemos a transformar nosso bot em um aplicativo interativo, capacitando-o a converter mídias como: `Áudio`, `Vídeo`, `Foto`, `Documentos` e `Textos.
+  - Aprenderemos a transformar nosso bot em um aplicativo interativo, capacitando-o a converter mídias como: `Áudio`, `Vídeo`, `Foto`, `Documentos` e `Textos`.
 
 - **Projeto Final:**
   - Integraremos todos os conceitos em um único bot, onde o usuário poderá enviar a mídia e escolher o formato desejado pressionando o botão inline.
