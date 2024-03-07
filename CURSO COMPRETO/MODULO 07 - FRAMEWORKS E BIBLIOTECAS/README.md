@@ -38,12 +38,12 @@ A principal diferença entre um framework e uma biblioteca está no controle do 
 ## AGORA É A SUA VEZ!
 Este Modulo não terá um projeto final definido. Em vez disso, você terá a oportunidade emocionante de adaptar um bot de Telegram inicial para diferentes frameworks e bibliotecas. Isso significa que você receberá um código inicial e terá o desafio de fazer os ajustes necessários para torná-lo funcional em diferentes ambientes de desenvolvimento. É a sua vez de se tornar um desenvolvedor e explorar diferentes abordagens para construir e integrar um bot de Telegram.
 
-### OBJETIVO:
+## OBJETIVO:
 O objetivo deste projeto é fornecer uma oportunidade de aprender e praticar a adaptação de código entre diferentes frameworks e bibliotecas. Ao trabalhar neste projeto, você terá a chance de:
 
 - Aprender sobre diferentes frameworks e bibliotecas para desenvolvimento de bots de Telegram.
 - Ganhar experiência prática em adaptar código para diferentes ambientes de desenvolvimento.
 - Desenvolver habilidades de resolução de problemas e pensamento crítico ao lidar com desafios de integração.
 
-### COMO TERMINAR?
+## COMO TERMINAR?
 Você receberá um código inicial que implementa um bot de Telegram usando uma estrutura ou biblioteca específica. Sua tarefa será fazer os ajustes necessários para torná-lo compatível com outra estrutura ou biblioteca de sua escolha. Você pode ser solicitado a ajustar rotas, implementar manipuladores de eventos, lidar com a autenticação ou realizar outras modificações conforme necessário para garantir que o bot funcione corretamente no novo ambiente.
