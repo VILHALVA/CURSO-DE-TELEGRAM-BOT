@@ -1,4 +1,4 @@
-# MODULO 04: DATABASE (BANCO DE DADOS)
+# MODULO 04: BANCO DE DADOS (DATABASE)
 
 <img src="FOTO.png" align="center" width="400"> <br>
 
