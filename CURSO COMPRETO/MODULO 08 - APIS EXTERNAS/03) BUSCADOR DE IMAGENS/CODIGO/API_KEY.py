@@ -1,0 +1,1 @@
+API_KEY = 'sua_chave_de_api_aqui'
