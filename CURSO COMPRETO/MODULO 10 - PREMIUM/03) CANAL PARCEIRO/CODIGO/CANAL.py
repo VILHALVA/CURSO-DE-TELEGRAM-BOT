@@ -1,0 +1,1 @@
+CANAL_PARCEIRO = '@seu_canal_parceiro'
