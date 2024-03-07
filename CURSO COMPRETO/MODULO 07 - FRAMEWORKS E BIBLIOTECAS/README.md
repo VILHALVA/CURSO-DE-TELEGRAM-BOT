@@ -36,7 +36,7 @@ Estes bots oferecem uma interface gráfica simples e intuitiva para os usuários
 A principal diferença entre um framework e uma biblioteca está no controle do fluxo de execução. Enquanto em uma biblioteca o controle é invertido, ou seja, é o desenvolvedor quem chama as funções da biblioteca para realizar tarefas específicas, em um framework o controle é assumido pelo próprio framework. No desenvolvimento com um framework, o desenvolvedor fornece o código específico para personalizar ou estender o comportamento definido pelo framework.
 
 ## AGORA É A SUA VEZ!
-Este projeto não terá um projeto final definido. Em vez disso, você terá a oportunidade emocionante de adaptar um bot de Telegram inicial para diferentes frameworks e bibliotecas. Isso significa que você receberá um código inicial e terá o desafio de fazer os ajustes necessários para torná-lo funcional em diferentes ambientes de desenvolvimento. É a sua vez de se tornar um desenvolvedor e explorar diferentes abordagens para construir e integrar um bot de Telegram.
+Este Modulo não terá um projeto final definido. Em vez disso, você terá a oportunidade emocionante de adaptar um bot de Telegram inicial para diferentes frameworks e bibliotecas. Isso significa que você receberá um código inicial e terá o desafio de fazer os ajustes necessários para torná-lo funcional em diferentes ambientes de desenvolvimento. É a sua vez de se tornar um desenvolvedor e explorar diferentes abordagens para construir e integrar um bot de Telegram.
 
 ### OBJETIVO:
 O objetivo deste projeto é fornecer uma oportunidade de aprender e praticar a adaptação de código entre diferentes frameworks e bibliotecas. Ao trabalhar neste projeto, você terá a chance de:
