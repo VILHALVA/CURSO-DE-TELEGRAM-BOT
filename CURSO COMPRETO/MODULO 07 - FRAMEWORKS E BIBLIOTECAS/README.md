@@ -18,6 +18,23 @@ Este é o **Módulo 07** do curso, onde vamos fazer uma abordagem um pouco difer
 
 Estes bots oferecem uma interface gráfica simples e intuitiva para os usuários enviarem mensagens ou mídias para grupos ou canais no Telegram de forma rápida e eficiente.
 
+## O QUE É FRAMEWORK E BIBLIOTECA? E QUAL É DIFERENÇA?
+"Framework" e "biblioteca" são termos comuns na programação de software e muitas vezes são confundidos, mas têm significados distintos.
+
+1. **Biblioteca**:
+   - Uma biblioteca é um conjunto de funções ou rotinas reutilizáveis que podem ser utilizadas para realizar tarefas específicas dentro de um programa.
+   - As bibliotecas geralmente consistem em código compilado ou scripts que fornecem funcionalidades específicas, como operações de manipulação de arquivos, operações matemáticas, comunicação de rede, entre outras.
+   - Os desenvolvedores podem importar e utilizar as funções de uma biblioteca em seus próprios programas, o que ajuda a economizar tempo e esforço, pois não precisam reinventar a roda sempre que precisam de uma determinada funcionalidade.
+
+2. **Framework**:
+   - Um framework é uma estrutura abstrata que fornece uma base ou arcabouço para o desenvolvimento de software.
+   - Os frameworks definem uma estrutura ou conjunto de padrões que orientam o desenvolvimento de aplicativos, fornecendo uma abordagem predefinida para resolver problemas comuns.
+   - Diferentemente das bibliotecas, que são usadas para realizar tarefas específicas, os frameworks oferecem uma estrutura mais ampla para o desenvolvimento de aplicativos, incluindo regras, diretrizes e convenções para o fluxo de trabalho do desenvolvedor.
+   - Os frameworks geralmente fornecem um conjunto de ferramentas, classes, módulos e padrões de design que os desenvolvedores podem usar para construir aplicativos de forma consistente e eficiente.
+
+**Diferença**:
+A principal diferença entre um framework e uma biblioteca está no controle do fluxo de execução. Enquanto em uma biblioteca o controle é invertido, ou seja, é o desenvolvedor quem chama as funções da biblioteca para realizar tarefas específicas, em um framework o controle é assumido pelo próprio framework. No desenvolvimento com um framework, o desenvolvedor fornece o código específico para personalizar ou estender o comportamento definido pelo framework.
+
 ## AGORA É A SUA VEZ!
 Este projeto não terá um projeto final definido. Em vez disso, você terá a oportunidade emocionante de adaptar um bot de Telegram inicial para diferentes frameworks e bibliotecas. Isso significa que você receberá um código inicial e terá o desafio de fazer os ajustes necessários para torná-lo funcional em diferentes ambientes de desenvolvimento. É a sua vez de se tornar um desenvolvedor e explorar diferentes abordagens para construir e integrar um bot de Telegram.
 
