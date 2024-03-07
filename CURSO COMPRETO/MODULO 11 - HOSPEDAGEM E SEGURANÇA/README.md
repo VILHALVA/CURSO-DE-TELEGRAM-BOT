@@ -112,7 +112,7 @@ O conteúdo do arquivo `README.md` incluirá informações sobre diferentes opç
 ## DESPEDIDA:
 Parabéns por concluir este curso sobre a criação de bots do Telegram em Python! Esperamos que você tenha encontrado as informações e os exemplos fornecidos úteis e inspiradores para iniciar sua jornada no desenvolvimento de bots.
 
-Gostaríamos de lembrar que este curso termina aqui, no Módulo 10 sobre hospedagem. No entanto, o mundo da programação é vasto e em constante evolução, e sempre há mais para aprender e explorar. Portanto, encorajamos você a continuar sua jornada de aprendizado buscando mais informações em outras fontes e até mesmo realizando outros cursos.
+Gostaríamos de lembrar que este curso termina aqui, no Módulo 11 sobre hospedagem. No entanto, o mundo da programação é vasto e em constante evolução, e sempre há mais para aprender e explorar. Portanto, encorajamos você a continuar sua jornada de aprendizado buscando mais informações em outras fontes e até mesmo realizando outros cursos.
 
 Você pode encontrar mais cursos e minicursos em Python e outras áreas da programação em meus repositórios do GitHub:
 
