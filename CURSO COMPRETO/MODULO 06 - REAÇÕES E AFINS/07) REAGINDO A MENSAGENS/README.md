@@ -1,55 +1,22 @@
-# REAGINDO A MENSAGENS
+# REAGINDO A MENSAGENS DO GRUPO
 ## DESCRIÇÃO:
-Este bot foi desenvolvido para reagir a todas as mensagens recebidas em um grupo do Telegram com uma reação de coração. Ele utiliza a função `setMessageReaction` da API do Telegram para definir a reação de coração em cada mensagem recebida no grupo.
-
-## [DETALHES:](https://t.me/BotNews/86)
-* API de bot 7.0
-* Reações:
-• Apresentando suporte completo de reação para bots.
-• Os bots agora podem reagir a mensagens com setMessageReaction .
-• As reações às mensagens agora geram atualizações para os bots.
-• Adicionado o campo `available_reactions` à classe Chat.
-
-Para atualizar a biblioteca Telebot, você pode usar o seguinte comando pip:
-
-```
-pip install --upgrade pyTelegramBotAPI
-```
-
-Isso garantirá que você tenha a versão mais recente da biblioteca, que deve incluir suporte para a API de bot 7.0 e reações às mensagens. Certifique-se de executar esse comando em seu terminal ou prompt de comando.
-
-* [SAIBA MAIS CLICANDO AQUI](https://core.telegram.org/bots/api#setmessagereaction)
+Esse bot é um bot do Telegram que reage automaticamente a todas as mensagens de texto que recebe com um emoji de coração (❤️).
 
 ## EXPLICAÇÃO:
-1. **Importações:**
-```python
-from telebot import TeleBot
-from TOKEN import *
-```
-   - `TeleBot`: É a classe principal da biblioteca Telebot, que é usada para criar e gerenciar o bot do Telegram.
-   - `TOKEN`: É importado de um arquivo chamado `TOKEN.py`, que contém o token de acesso do bot. Isso é feito para proteger o token e evitar que seja compartilhado diretamente no código.
+1. `import telebot`: Esta linha importa o módulo `telebot`, que é uma biblioteca em Python para criar bots no Telegram.
 
-2. **Criação do objeto bot:**
-```python
-bot = TeleBot(TOKEN)
-```
-   - Cria uma instância do bot Telebot utilizando o token de acesso.
+2. `TOKEN = "TOKEN_AQUI"`: Aqui é onde você deve substituir `"TOKEN_AQUI"` pelo token do seu bot no Telegram. Esse token é necessário para autenticar o bot e permitir que ele se comunique com o Telegram.
 
-3. **Manipulador de mensagens:**
-```python
-@bot.message_handler(func=lambda mensagem: True)
-def responder(mensagem):
-    # Definir uma reação de coração na mensagem
-    reaction = [{"type": "heart"}]  # Reação de coração
-    bot.set_message_reaction(mensagem.chat.id, mensagem.message_id, reaction)
-```
-   - Define um manipulador de mensagens que será acionado para todas as mensagens recebidas.
-   - Quando uma mensagem é recebida, a função `responder()` é chamada.
-   - Dentro desta função, uma reação de coração é definida utilizando a função `set_message_reaction()` do bot Telebot. Esta função recebe o ID do chat, o ID da mensagem e a reação a ser definida.
+3. `bot = telebot.TeleBot(TOKEN)`: Aqui é criado um objeto `TeleBot` com o token fornecido. Este objeto é essencial para interagir com a API do Telegram e realizar ações como enviar mensagens, responder a comandos, etc.
 
-4. **Iniciar o polling:**
-```python
-bot.polling()
-```
-   - Inicia o processo de polling para receber e responder às mensagens. O bot continuará a rodar e responder às mensagens indefinidamente.
+4. `@bot.message_handler(content_types=["text"])`: Este é um decorador que define uma função para lidar com mensagens de texto recebidas pelo bot. Isso significa que a função abaixo será chamada sempre que o bot receber uma mensagem de texto.
 
+5. `def reagir_mensagem(mensagem):`: Esta é a definição da função `reagir_mensagem` que será chamada para lidar com as mensagens recebidas. Ela recebe um parâmetro `mensagem`, que contém informações sobre a mensagem recebida.
+
+6. `chat_id = mensagem.chat.id`: Aqui, o código extrai o ID do chat (ou conversa) de onde a mensagem foi recebida. O ID do chat é necessário para identificar o destinatário de uma resposta ou ação.
+
+7. `message_id = mensagem.message_id`: Esta linha extrai o ID da mensagem recebida. Cada mensagem no Telegram tem um ID único, que pode ser usado para identificar uma mensagem específica.
+
+8. `bot.set_message_reaction(chat_id, message_id, [telebot.types.ReactionTypeEmoji('❤️')])`: Aqui é onde a ação principal ocorre. Esta linha chama o método `set_message_reaction` do objeto `bot`, passando o `chat_id` e o `message_id` da mensagem recebida, bem como uma lista contendo uma reação de emoji. Neste caso, o emoji de coração ('❤️') está sendo enviado como uma reação à mensagem.
+
+9. `bot.polling()`: Este método inicia o processo de polling, que é uma técnica de comunicação usada pelo bot para receber atualizações do Telegram. Basicamente, o bot ficará constantemente verificando se há novas mensagens ou eventos para processar.
