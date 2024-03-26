@@ -54,4 +54,5 @@ Ao longo dos anos, a plataforma Telegram continuou a aprimorar sua API de bot e 
 - [VEJA O CURSO DE TELEBOT](https://github.com/VILHALVA/CURSO-DE-TELEBOT)
 - [VEJA O MANUAL](./MANUAL.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:TELEBOT)
 
